@@ -1,0 +1,56 @@
+Computer History:
+===================
+1800 = charles babbage [ difference engine]
+ada byron = first programmer.
+1930 -40 : electronic computer prototype built[eniac]
+1971 - first microprocessor
+
+Programmer writes source code.
+computer understands only object code.
+Compiler converts source code into object code.
+source code => compiler => class file => linker => jar => JVM => output (java)
+
+
+Programming basic:
+=====================
+In a programming language, function represents certain action.
+Let's take robot example,
+move();
+turnLeft();
+pickBeeper();
+putBeeper();
+Above are the action done by robot. So, they are typically a function in programming language.
+
+Our program has to more generic. Not stick to specific problems.
+
+
+Common Errors:
+================
+- unconditional/infinite loop.
+- off by one bug [ last iteration in loop]
+
+precondition & post condition should be clearly specified.
+
+
+Decompose the requirement:
+=============================
+eg: daily activities
+
+wokeup
+brushteeth
+    - getToothBrush
+    - toothPaste
+    - moveOnTeeth
+bathroom
+    - takeSoap
+    - washBody
+shower
+    - OpenTap
+    - CloseTap
+clothes
+
+This design is called as top down design.
+
+
+JAVA INTRO:
+==============
